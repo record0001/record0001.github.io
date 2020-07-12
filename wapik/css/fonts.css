@@ -1,0 +1,41 @@
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: montserrat;
+  src: url("../../fonts/Montserrat/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf"); }
+
+@font-face {
+  font-family: montserratBold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf"); }
+
+@font-face {
+  font-family: proxima;
+  src: url("../fonts/proxima-nova-web-fonts-master/Proxima_Nova_Alt_Bold_webfont.ttf"); }
+
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/roboto/Roboto.ttf"); }
+
+@font-face {
+  font-family: robotoLight;
+  src: url("../fonts/roboto/Robotolight.ttf"); }
+
+@font-face {
+  font-family: robotoRegular;
+  src: url("../fonts/roboto/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: robotoMedium;
+  src: url("../fonts/roboto/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: myriadPro;
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.ttf"); }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiZm9udHMuY3NzIiwKCSJzb3VyY2VSb290IjogIlNDU1MiLAoJInNvdXJjZXMiOiBbCgkJImZvbnRzLnNjc3MiCgldLAoJIm5hbWVzIjogW10sCgkibWFwcGluZ3MiOiAiQUFDQSxVQUFVO0VBQ1IsV0FBVyxFQUFFLFVBQVU7RUFDdkIsR0FBRyxFQUFFLGlEQUFpRDs7QUFHeEQsVUFBVTtFQUNSLFdBQVcsRUFBRSxVQUFVO0VBQ3ZCLEdBQUcsRUFBRSxvREFBb0Q7O0FBRzNELFVBQVU7RUFDUixXQUFXLEVBQUUsbUJBQW1CO0VBQ2hDLEdBQUcsRUFBRSxrREFBa0Q7O0FBSXpELFVBQVU7RUFDUixXQUFXLEVBQUUsY0FBYztFQUMzQixHQUFHLEVBQUUsOENBQThDOztBQUdyRCxVQUFVO0VBQ1IsV0FBVyxFQUFFLE9BQU87RUFDcEIsR0FBRyxFQUFFLCtFQUErRTs7QUFHdEYsVUFBVTtFQUNSLFdBQVcsRUFBRSxNQUFNO0VBQ25CLEdBQUcsRUFBRSxpQ0FBaUM7O0FBR3hDLFVBQVU7RUFDUixXQUFXLEVBQUUsV0FBVztFQUN4QixHQUFHLEVBQUUsc0NBQXNDOztBQUc3QyxVQUFVO0VBQ1IsV0FBVyxFQUFFLGFBQWE7RUFDMUIsR0FBRyxFQUFFLHlDQUF5Qzs7QUFHaEQsVUFBVTtFQUNSLFdBQVcsRUFBRSxZQUFZO0VBQ3pCLEdBQUcsRUFBRSx3Q0FBd0M7O0FBRy9DLFVBQVU7RUFDUixXQUFXLEVBQUUsU0FBUztFQUN0QixHQUFHLEVBQUUsK0NBQStDIgp9 */
