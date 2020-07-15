@@ -1971,14 +1971,54 @@
 <script src="js/website.assets.min.js?_build=1594383248"
         type="text/javascript" data-cfasync="false"></script>
 <script type="text/javascript" data-cfasync="false">
-    var websiteConfig = websiteConfig || {};
-   // websiteConfig.address = 'http://try.trial.cms-guide.com/site/02/00q/90/0200q90fsqr2t5gh/';
-   // websiteConfig.address = 'http://localhost:63342/medistart/';
+
+
+    ////////////////////////////////////
+
+    var temp_ = {
+        address: "http://try.trial.cms-guide.com/site/02/00q/90/0200q90xuj76guek/",
+        addressHash: "7972a548b35b80569fcebee3cd7f68ce",
+        apiUrl: "/site/02/00q/90/0200q90xuj76guek/api.php",
+        back_to_top_button: {
+            animationTime: 500,
+            cssAnimationClass: "animated",
+            cssVisibleClass: "moto-back-to-top-button_visible",
+            enabled: true,
+            topOffset: 300,
+            type: "theme"
+        },
+
+        cookie_notification: {
+            enabled: false,
+            content: "<p class='moto-text_normal'>This website uses cook…e you get the best experience on our website.</p>",
+            content_hash: "6610aef7f7138423e25ee33c75f23279",
+            controls: {
+                accept: {
+                    cookie_lifetime: 365,
+                    label: "Got it",
+                    preset: "default",
+                    size: "medium"
+                },
+                visible: "close,accept"
+            },
+            lazy_loading: {enabled: true},
+            popup_preferences: {loading_error_message: "The content could not be loaded."},
+            preferredLanguage: "ru",
+            preferredLocale: "ru_RU"
+        }
+    };
+
+    ////////////////////////
+
+    var websiteConfig = temp_;
+   // var websiteConfig = websiteConfig || {};
+    // websiteConfig.address = 'http://try.trial.cms-guide.com/site/02/00q/90/0200q90fsqr2t5gh/';
+    // websiteConfig.address = 'http://localhost:63342/medistart/';
     websiteConfig.address = 'https://record0001.github.io/medistart/';
 
-  //  websiteConfig.addressHash = '69ffb592b48aa1a571151492e54a1ac9'; // local
+    //  websiteConfig.addressHash = '69ffb592b48aa1a571151492e54a1ac9'; // local
     websiteConfig.addressHash = 'ae86ff10cd544f8a27ece0833779c5bb'; // git
-  //  websiteConfig.addressHash = '24eb0a884890511aaefbf9e5d9dbeb17';
+    //  websiteConfig.addressHash = '24eb0a884890511aaefbf9e5d9dbeb17';
 
     websiteConfig.apiUrl = 'http://try.trial.cms-guide.com/site/02/00q/90/0200q90fsqr2t5gh/api.php';
     websiteConfig.preferredLocale = 'en_US';
