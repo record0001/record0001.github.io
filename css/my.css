@@ -10,7 +10,7 @@
 }
 
 body {
-    background: url("/img/bg.jpg") no-repeat center center / cover;
+    background: url("/img/bg.jpg") no-repeat center center / cover fixed;
     height: 100vh;
     padding-top: 3%;
 }
@@ -20,17 +20,19 @@ body {
     max-width: 1100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-
 
 .screen_block {
 
-position: relative;
+    position: relative;
     margin: 5px;
     max-width: 500px;
+    flex: 0 1 32.333%
+    /*min-width: 500px;*/
 }
 
-.screen__img{
+.screen__img {
 
     max-width: 500px;
     overflow: hidden;
@@ -40,16 +42,21 @@ position: relative;
 
 }
 
-
-
 .screen__img img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 
+    transition: all 1s linear;
+
 }
 
+.screen__img img:hover {
+
+    transform: scale(1.1, 1.1);
+
+}
 
 .screen__link {
     position: absolute;
@@ -57,7 +64,6 @@ position: relative;
     bottom: 0%;
     background-color: rgba(128, 128, 128, 0.35);
     width: 100%;
-   /* height: 65px;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,9 +79,7 @@ position: relative;
 
     animation-name: link_bg;
 
-
 }
-
 
 .screen__link a {
     color: #fff;
@@ -84,7 +88,6 @@ position: relative;
     letter-spacing: 0.05em;
     border: 1px solid gray;
     width: 185px;
-    /*height: 100%;*/
     padding: 5px;
     margin: 15px;
     text-align: center;
@@ -93,21 +96,13 @@ position: relative;
 
 }
 
-
 .screen__link a:hover {
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
     background-color: rgba(128, 128, 128, 0.1);
     border-radius: 3px;
 
-
 }
-
-
-.screen__link a:hover .screen__link{
-border: 1px solid red;
-}
-
 
 
 @media screen and (max-width: 670px) {
@@ -118,16 +113,11 @@ border: 1px solid red;
 
 }
 
-
-
 @media screen and (max-width: 550px) {
 
-    .container{
+    .container {
         flex-direction: column;
         align-items: center;
     }
 }
-
-
-
 
