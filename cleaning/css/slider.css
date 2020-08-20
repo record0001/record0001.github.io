@@ -107,7 +107,7 @@ left: 0;
     -moz-border-radius-bottomright: 7px;
     background-color: rgba(255, 255, 255, 0.45);
     border: 1px solid rgba(128, 128, 128, 0.65);
-    z-index: 1000;
+    z-index: 1001;
 }
 
 .slider__box .slick-arrow.slick-prev::after{
@@ -144,7 +144,7 @@ right: 0;
     -moz-border-radius-bottomleft: 7px;
     background-color: rgba(255, 255, 255, 0.45);
     border: 1px solid rgba(128, 128, 128, 0.65);
-    z-index: 1000;
+    z-index: 1001;
 
 }
 
@@ -194,7 +194,7 @@ right: 0;
     height: 25px;
     position: absolute;
     transform: translateY(-150%);
-    z-index: 1000;
+    z-index: 1001;
     width: 100%;
     display: flex;
     /* margin: 0 auto; */
