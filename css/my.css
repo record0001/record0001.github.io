@@ -104,6 +104,10 @@ body {
 
 }
 
+.screen__comment {
+font-size: 0.7em;
+}
+
 
 @media screen and (max-width: 670px) {
 
