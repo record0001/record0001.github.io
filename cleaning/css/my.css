@@ -127,6 +127,11 @@ content: '';
 }
 
 
+.header__wrapper {
+height: 100px;
+}
+
+
 .header__burger{
     background-color: #1fc6c7;
     position: fixed;
