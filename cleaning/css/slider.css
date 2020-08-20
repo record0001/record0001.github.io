@@ -189,8 +189,8 @@ right: 0;
 
 /* Точки (булиты) */
 .slider__box .slick-dots {
-    border: 1px solid red;
-    /*border: 0;*/
+    /*border: 1px solid red;*/
+    border: 0px;
     height: 25px;
     position: absolute;
     transform: translateY(-150%);
@@ -207,8 +207,8 @@ right: 0;
     font-size: 0px;
 }
 .slider__box .slick-dots li{
-    border: 1px solid green;
-
+    /*border: 1px solid green;*/
+    border: 0px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -221,8 +221,8 @@ right: 0;
 
 /* Активная точка */
 .slider__box .slick-dots li.slick-active{
-    border: 1px solid blue;
-
+    /*border: 1px solid blue;*/
+border: 0px;
 
     width: 15px;
     height: 15px;
