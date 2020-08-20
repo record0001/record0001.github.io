@@ -19,14 +19,25 @@ $(document).ready(function(){
 
     $(window).on('load resize', function() {
         var width = $( window ).width();
-        var arrow
+        var arrow;
+        var display;
+        var display_dots;
+
         if(width < 380){
-            display = 'none'; $('button.slick-prev.slick-arrow').hide(); $('button.slick-next.slick-arrow').hide();
-            display_dots = 'block'; $('ul.slick-dots').show();}
+           // display = 'none';
+            $('button.slick-prev.slick-arrow').hide();
+            $('button.slick-next.slick-arrow').hide();
+           // display_dots = 'block';
+           // $('ul.slick-dots').show();
+        }
 
         else{
-            display = 'block'; $('button.slick-prev.slick-arrow').show(); $('button.slick-next.slick-arrow').show();
-            display_dots = 'none'; $('ul.slick-dots').hide();};
+           // display = 'block';
+            $('button.slick-prev.slick-arrow').show();
+            $('button.slick-next.slick-arrow').show();
+           // display_dots = 'none';
+           // $('ul.slick-dots').hide();
+        };
 
 /*        $('button.slick-prev.slick-arrow').css('display',display);
         $('button.slick-next.slick-arrow').css('display',display);*/
