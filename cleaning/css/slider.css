@@ -235,7 +235,7 @@ border: 0px;
 }
 
 /* Элемент точки */
-.slider__box.slick-dots li button{
+.slider__box .slick-dots li button{
     /*border: 1px solid orange;*/
     border: 0px;
     font-size: 0px;
