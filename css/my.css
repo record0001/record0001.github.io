@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+._09em{
+font-size: 0.9em;
+}
+
 body {
     background: url("/img/bg.jpg") no-repeat center center / cover fixed;
     height: 100vh;
